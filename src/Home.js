@@ -21,7 +21,7 @@ const Home = () => {
 
   return (
     <div>
-      <h1>Contact List</h1>
+      <h1>Contact List:</h1>
       <ul>
         {items.map((item, index) => (
           <li key={index}>
